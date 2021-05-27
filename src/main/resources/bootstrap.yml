@@ -1,4 +1,6 @@
 spring:
+  profiles:
+    active: dev,mysql
   application:
     name: allianz-service
   cloud:
