@@ -13,9 +13,17 @@ public class AllianzController {
 	@Value("${mensaje}")
 	private String mensaje;
 
+	@Value("${mensaje-service}")
+	private String mensajeService;
+	
 	@GetMapping("/mensaje")
 	public String mensaje() {
 		return getMensaje();
+	}
+	
+	@GetMapping("/mensajeService")
+	public String mensajeService() {
+		return getMensajeService();
 	}
 
 }
