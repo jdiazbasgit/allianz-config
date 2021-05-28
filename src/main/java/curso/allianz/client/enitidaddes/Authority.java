@@ -12,7 +12,6 @@ import lombok.Data;
 @Entity
 @Table(name = "Authorities")
 @Data
-@AllArgsConstructor
 public class Authority {
 	
 	@Id

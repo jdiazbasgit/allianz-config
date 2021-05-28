@@ -18,8 +18,6 @@ import lombok.Data;
 @Entity
 @Table(name = "usuarios")
 @Data
-@AllArgsConstructor
-
 public class Usuario {
 	
 	@Id

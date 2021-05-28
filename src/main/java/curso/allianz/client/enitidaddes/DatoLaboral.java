@@ -20,8 +20,6 @@ import lombok.Data;
 @Table(name = "datos_laborales")
 @RestResource(path = "/datosLaborales", rel = "datoLaboral")
 @Data
-@AllArgsConstructor
-
 public class DatoLaboral
 {
 	@Id

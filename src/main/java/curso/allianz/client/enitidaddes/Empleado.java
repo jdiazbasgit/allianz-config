@@ -19,8 +19,6 @@ import lombok.Data;
 @Table(name = "empleados")
 @RestResource(path = "/empleados", rel = "empleado")
 @Data
-@AllArgsConstructor
-
 public class Empleado {
 	
 
